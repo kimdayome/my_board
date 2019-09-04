@@ -1,6 +1,7 @@
 {
   "name": "myapp",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "app.js",
   "scripts": {
@@ -8,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cutedayoung/my_board.git"
+    "url": "git://github.com/cutedayoung/my_board.git"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/cutedayoung/my_board#readme",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {}
 }
